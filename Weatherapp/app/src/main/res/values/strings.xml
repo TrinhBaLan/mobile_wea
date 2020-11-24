@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weatherapp</string>
+    <string name="mainui">Trang chính</string>
+    <string name="detail">Chi tiết</string>
+    <string name="NextPred">Dự báo sắp tới</string>
+    <string name="aqi">Chất lượng không khí</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+</resources>
