@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_ui"
+        android:title="@string/mainui" />
+    <item
+        android:id="@+id/current_detail"
+        android:title="@string/detail" />
+    <item
+        android:id="@+id/next_120h"
+        android:title="@string/NextPred" />
+    <item
+        android:id="@+id/aqi_view"
+        android:title="@string/aqi" />
+    <item
+        android:id="@+id/citylist_menu"
+        android:title="@string/citylist"
+/>
+    <item
+        android:id="@+id/update"
+        android:title="Cập nhật" />
+</menu>

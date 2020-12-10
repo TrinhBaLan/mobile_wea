@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    android:background="#71ABF3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        >
+
+        <TextView
+            android:id="@+id/hour_120h"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="323dp"
+            android:layout_marginBottom="35dp"
+            android:text="10:10 AM" />
+
+        <TextView
+            android:id="@+id/date_120h"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="322dp"
+            android:layout_marginBottom="9dp"
+            android:text="12-10-2020" />
+
+        <ImageView
+            android:id="@+id/icon_120h"
+            android:layout_width="61dp"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="252dp"
+            android:layout_marginBottom="8dp"
+            app:srcCompat="@drawable/icon01d" />
+
+        <TextView
+            android:id="@+id/realtemp_120h"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="132dp"
+            android:layout_marginBottom="35dp"
+            android:text="Tối thiểu 20 độ" />
+
+        <TextView
+            android:id="@+id/feelLike_temp_120h"
+            android:layout_width="108dp"
+            android:layout_height="23dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="131dp"
+            android:layout_marginBottom="8dp"
+            android:text="Tối đa 25 độ" />
+
+        <TextView
+            android:id="@+id/pop_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="293dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="35dp"
+            android:gravity="center"
+            android:text="Khả năng mưa" />
+
+        <TextView
+            android:id="@+id/pop_120h"
+            android:layout_width="112dp"
+            android:layout_height="24dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="292dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="20%" />
+    </RelativeLayout>
+</RelativeLayout>
